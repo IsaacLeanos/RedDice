@@ -1,0 +1,26 @@
+{
+  "name": "RedDice",
+  "version": "1.0.0",
+  "description": "Red Dice React Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacLeanos/RedDice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacLeanos/RedDice/issues"
+  },
+  "homepage": "https://github.com/IsaacLeanos/RedDice#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
