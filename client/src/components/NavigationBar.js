@@ -1,5 +1,6 @@
 import React from 'react'
 import {Nav,Navbar,NavItem,MenuItem}from'react-bootstrap'
+import{Link}from'react-router-dom'
 
 
 export default()=>{
@@ -11,8 +12,8 @@ export default()=>{
         </Navbar.Brand>
     </Navbar.Header>
     <Nav>
-        <NavItem eventKey={1} href="#">Login</NavItem>
-        <NavItem eventKey={2} href="#">Signup</NavItem>
+        <NavItem eventKey={1} componentClass={Link} href="/" to='/'>Login</NavItem>
+        <NavItem eventKey={2} componentClass={Link} href="/signup" to='/signup'>Signup</NavItem>
     </Nav>
     </Navbar>
     )
