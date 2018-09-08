@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Home from './components/Home'
-import Signup from './components/Signup'
+import HomePage from './components/pages/HomePage'
+import SignupPage from './components/pages/SignupPage'
 import{Route}from'react-router-dom'
 
-import NavigationBar from './components/NavigationBar'
+import NavigationBar from './components/navigation/NavigationBar'
 
 const App=({location})=>{
     return (
     <div>
-    <Route location={location} path='/' exact component={Home}/>
-    <Route location={location} path='/signup' exact component={Signup}/>
+    <Route location={location} path='/' exact component={HomePage}/>
+    <Route location={location} path='/signup' exact component={SignupPage}/>
     </div>
     )
   }
