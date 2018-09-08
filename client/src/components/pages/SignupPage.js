@@ -9,7 +9,7 @@ import{signupRequest}from'../../actions/users'
 class SignupPage extends React.Component{
 
     submit=(data)=>{
-        this.props.signupRequest(data)
+        return this.props.signupRequest(data)
     }
 
     render(){
