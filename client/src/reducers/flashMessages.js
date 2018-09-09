@@ -1,3 +1,9 @@
+import{addFlashMessage}from'../actions/flashMessages'
+
 export default (state=[],action={})=>{
-    return state
+    switch(action.type){
+        case 'Add_FLASH_MESSAGE':
+        return[...state,{}]
+        default:return state
+    }
 }
